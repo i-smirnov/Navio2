@@ -3,7 +3,7 @@ NAVIO = ../../Navio
 INCLUDES = -I ../..
 
 all:
-	$(CXX) -std=gnu++11 $(INCLUDES) main.cpp $(NAVIO)/Util.cpp $(NAVIO)/RCInput.cpp -o RCInput
+	$(CXX) -std=gnu++11 $(INCLUDES) RCInput_example.cpp $(NAVIO)/Util.cpp $(NAVIO)/RCInput.cpp -o RCInput_example
 
 clean:
-	rm RCInput
+	rm RCInput_example

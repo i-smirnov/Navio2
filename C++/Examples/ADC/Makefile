@@ -3,7 +3,7 @@ NAVIO = ../../Navio
 INCLUDES = -I ../..
 
 all:
-	$(CXX) -std=gnu++11 $(INCLUDES) ADC.cpp $(NAVIO)/Util.cpp -o ADC
+	$(CXX) -std=gnu++11 $(INCLUDES) ADC_example.cpp $(NAVIO)/Util.cpp $(NAVIO)/ADC.cpp -o ADC_example
 
 clean:
-	rm ADC
+	rm ADC_example
