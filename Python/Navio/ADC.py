@@ -1,4 +1,4 @@
-class AD_converter():
+class ADC():
     channel_count = 5
     channels = []
 
